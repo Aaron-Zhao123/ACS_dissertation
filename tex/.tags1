@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Introduction	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\onehalfspacing$/;"	chapter	line:60
+Background	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^the compression rates of many existing works.$/;"	chapter	line:147
+Convolutional Neural Networks	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\chapter{Background}$/;"	section	line:149
+Related Work	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^Krizhevsky, Coates}.$/;"	section	line:209
+Pruning	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\end{table}$/;"	chapter	line:378
+Deterministic Pruning	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^summarize their performances on selected neural network models.$/;"	section	line:393
+Pruning with biases	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\section{Deterministic Pruning}$/;"	subsubsection	line:394
+Pruning without biases	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\end{table}$/;"	subsubsection	line:537
+Dynamic Network Surgery	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^networks.$/;"	section	line:598
+Comparison to Existing Works	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^the targeting network.$/;"	section	line:702
+Proposed Pruning Strategies	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^networks.$/;"	chapter	line:798
+Gradient Profiling	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^induce better pruning results.$/;"	section	line:807
+Method Description	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^to inspect weights that are small in values but important for test accuracies.$/;"	subsubsection	line:817
+Gradient Profiling and Retraining	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\end{equation}$/;"	subsubsection	line:887
+Regularization Aided Pruning	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^limited retraining resources still worths further evaluations.$/;"	section	line:981
+$l_1$ and $l_2$ Norms	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^lead to efficient pruning.$/;"	subsubsection	line:991
+Proposed Quantization Strategies	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^could be evaluated in future works.$/;"	chapter	line:1472
+Customized Floating point Quantization	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^to fully explore the weights distribution by re-centralizing the arithmetics.$/;"	section	line:1483
+Centralized Customized Floating point Quantization	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^able to recover fully.$/;"	section	line:1605
+Motivation	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^I then describe the mechanism and show the quantization results.$/;"	subsubsection	line:1613
+Method Description	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^because these weights have been pruned away already.$/;"	subsubsection	line:1708
+Results	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\end{equation}$/;"	subsubsection	line:1750
+Summary of Quantization Methods	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^are more sensitive to precisions in the weights representations.$/;"	section	line:1832
+Evaluation	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\end{table}$/;"	chapter	line:1889
+Compression Pipeline	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\chapter{Evaluation}$/;"	section	line:1908
+Performance Evaluation	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^quantization.$/;"	section	line:1972

@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: acs-dissertation.aux
+The style file: unsrt.bst
+Database file #1: dissertation.bib
+Repeated entry---line 397 of file dissertation.bib
+ : @article{Tensorflow
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 531 of file dissertation.bib
+ : @article{Guo
+ :             ,
+I'm skipping whatever remains of this entry
+Warning--can't use both volume and number fields in chen2014diannao
+Warning--empty journal in krizhevsky2009learning
+You've used 43 entries,
+            1791 wiz_defined-function locations,
+            686 strings with 13226 characters,
+and the built_in function-call counts, 11926 in all, are:
+= -- 956
+> -- 818
+< -- 14
++ -- 287
+- -- 244
+* -- 820
+:= -- 1944
+add.period$ -- 136
+call.type$ -- 43
+change.case$ -- 43
+chr.to.int$ -- 0
+cite$ -- 45
+duplicate$ -- 520
+empty$ -- 991
+format.name$ -- 244
+if$ -- 2645
+int.to.chr$ -- 0
+int.to.str$ -- 43
+missing$ -- 41
+newline$ -- 216
+num.names$ -- 45
+pop$ -- 155
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 300
+stack$ -- 0
+substring$ -- 580
+swap$ -- 177
+text.length$ -- 14
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 93
+width$ -- 45
+write$ -- 464
+(There were 2 error messages)

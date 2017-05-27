@@ -1,0 +1,34 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Number of parameters in LeNet5-431K.}}{10}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Number of parameters in CifarNet.}}{11}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Number of parameters of pruned LeNet5-431K.}}{15}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Number of parameters of pruned \textit {Cifarnet}.}}{15}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Number of parameters of pruned LeNet5-431K, without pruning biases.}}{16}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Number of parameters of pruned CifarNet, without pruning biases.}}{16}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Number of parameters of pruned LeNet5-431K using Dynamic network surgery}}{18}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Number of parameters of pruned CifarNet using Dynamic network surgery.}}{19}
+\contentsline {table}{\numberline {4.7}{\ignorespaces LeNet5 pruning summary, CR is the compression rate, ER is the error rate. (\textit {Han}) is deterministic pruning used by \textit {Han et al.}. (\textit {Guo}) is the original \textit {Dynamic network surgery} implemented by \textit {Guo et al.}. (a), (b), (c), (d) are my implementations of various methods. (a) is deterministic pruning with biases, (b) is deterministic pruning without biases, (c) is \textit {Dynamic network surgery}, (d) is also \textit {Dynamic network surgery} but with the same error rate as (\textit {Guo}).}}{19}
+\contentsline {table}{\numberline {4.8}{\ignorespaces CifarNet pruning summary, CR is the compression rate, ER is the error rate. (a) is deterministic pruning with biases, (b) is deterministic pruning without biases, (c) is \textit {Dynamic network surgery}.}}{20}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Number of parameters of pruned LeNet5-431K using \textit {Gradient profiling}}}{26}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Number of parameters of pruned LeNet5-431K, with $l1$ and $l2$ norms, $\lambda _1 = 1e^{-4}$ and $\lambda _2 = 1e^{-7}$.}}{28}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Number of parameters of pruned CifarNet, with $l1$ and $l2$ norms, $\lambda _1 = 1e^{-5}$ and $\lambda _2 = 1e^{-5}$.}}{28}
+\contentsline {table}{\numberline {5.4}{\ignorespaces LeNet5 Pruning Summary, CR is the compression rate, ER is the error rate. (a) is deterministic pruning with biases, (b) is deterministic pruning without biases, (c) is \textit {Dynamic network surgery}, (d) is \textit {Gradient Profiling} and (e) is \textit {Regularization Aided Pruning}.}}{29}
+\contentsline {table}{\numberline {5.5}{\ignorespaces \textit {CifarNet} Pruning Summary, CR is the compression rate, ER is the error rate. (a) is deterministic pruning with biases, (b) is deterministic pruning without biases, (c) is \textit {Dynamic network surgery} and (d) is \textit {Regularization Aided Pruning}.}}{29}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Fixed-point quantization summary for \textit {LeNet5} and \textit {CifarNet}.}}{33}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Fixed-point quantization summary for \textit {LeNet5} and \textit {CifarNet}.}}{35}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Dynamic fixed-point quantization summary for \textit {LeNet5} and \textit {CifarNet}.}}{37}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Customized floating-point quantization summary for \textit {LeNet5} and \textit {CifarNet}, with 2-bit exponent and various mantissa width.}}{40}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Customized floating-point quantization summary for \textit {LeNet5}, with 3-bit mantissa and various exponent width.}}{40}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Quantization summary on a pruned \textit {LeNet5} model. \textit {Customized floating-point} has 1-bit sign, 1-bit exponent and the rest are mantissa bits. \textit {Centralized customized floating-point} has 1-bit sign, 1-bit central, 1-bit exponent and the rest are mantissa bits. \textit {Centralized dynamic fixed-point} has 1-bit sign, 1-bit central and the rest are fraction bits.}}{44}
+\contentsline {table}{\numberline {7.4}{\ignorespaces Quantization summary on a pruned \textit {CifarNet} model. \textit {Customized floating-point} has 1-bit sign, 2-bit exponent and the rest are mantissa bits. \textit {Centralized customized floating-point} has 1-bit sign, 1-bit central, 2-bit exponent and the rest are mantissa bits. \textit {Centralized dynamic fixed-point} has 1-bit sign, 1-bit central and the rest are fraction bits.}}{45}
+\contentsline {table}{\numberline {7.5}{\ignorespaces Quantization summary (bit-width, error rate) on unpruned \textit {LeNet5} and \textit {CifarNet}. \textit {DFP} is \textit {Dynamic fixed-point}, \textit {CFP} is \textit {Customized floating-point} and (\textit {Gysel}) is \textit {Gysel et al.}'s implemenetation of \textit {Dynamic fixed-point}.}}{46}
+\contentsline {table}{\numberline {7.6}{\ignorespaces Quantization summary (bit-width, error rate) on pruned \textit {LeNet5} and \textit {CifarNet}. \textit {CFP} is \textit {Customized floating-point} \textit {CCFP} is \textit {Centralized customized floating-point} and \textit {CDFP} is \textit {Centralized dynmaic fixed-point}. }}{47}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {8.1}{\ignorespaces LeNet5 Pruning Summary, Pruning and Quantization, CR is the compression rate, ER is the error rate.}}{50}
+\addvspace {10\p@ }

@@ -1,0 +1,279 @@
+\begin{thebibliography}{10}
+
+\bibitem{Krizhevsky}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E. Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In F.~Pereira, C.~J.~C. Burges, L.~Bottou, and K.~Q. Weinberger,
+  editors, {\em Advances in Neural Information Processing Systems 25}, pages
+  1097--1105. Curran Associates, Inc., 2012.
+
+\bibitem{Guo}
+Yiwen Guo, Anbang Yao, and Yurong Chen.
+\newblock Dynamic network surgery for efficient dnns.
+\newblock {\em CoRR}, abs/1608.04493, 2016.
+
+\bibitem{Han15}
+Song Han, Huizi Mao, and William~J. Dally.
+\newblock Deep compression: Compressing deep neural network with pruning,
+  trained quantization and huffman coding.
+\newblock {\em CoRR}, abs/1510.00149, 2015.
+
+\bibitem{Lecun1998gradient}
+Yann LeCun, L{\'e}on Bottou, Yoshua Bengio, and Patrick Haffner.
+\newblock Gradient-based learning applied to document recognition.
+\newblock {\em Proceedings of the IEEE}, 86(11):2278--2324, 1998.
+
+\bibitem{Szegedy}
+Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
+  Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich.
+\newblock Going deeper with convolutions.
+\newblock {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, 2015.
+
+\bibitem{Coates}
+Adam Coates, Brody Huval, Tao Wang, David~J. Wu, Bryan Catanzaro, and Andrew~Y.
+  Ng.
+\newblock Deep learning with {COTS} {HPC} systems.
+\newblock In {\em Proceedings of the 30th International Conference on Machine
+  Learning, {ICML} 2013, Atlanta, GA, USA, 16-21 June 2013}, pages 1337--1345,
+  2013.
+
+\bibitem{Mnih}
+Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei~A Rusu, Joel Veness,
+  Marc~G Bellemare, Alex Graves, Martin Riedmiller, Andreas~K Fidjeland, Georg
+  Ostrovski, et~al.
+\newblock Human-level control through deep reinforcement learning.
+\newblock {\em Nature}, 518(7540):529--533, 2015.
+
+\bibitem{Mnih2016}
+Volodymyr Mnih, Adria~Puigdomenech Badia, Mehdi Mirza, Alex Graves, Timothy~P
+  Lillicrap, Tim Harley, David Silver, and Koray Kavukcuoglu.
+\newblock Asynchronous methods for deep reinforcement learning.
+\newblock In {\em International Conference on Machine Learning}, 2016.
+
+\bibitem{Tien}
+Tien{-}Ju Yang, Yu{-}Hsin Chen, and Vivienne Sze.
+\newblock Designing energy-efficient convolutional neural networks using
+  energy-aware pruning.
+\newblock {\em CoRR}, abs/1611.05128, 2016.
+
+\bibitem{chen2014dadiannao}
+Yunji Chen, Tao Luo, Shaoli Liu, Shijin Zhang, Liqiang He, Jia Wang, Ling Li,
+  Tianshi Chen, Zhiwei Xu, Ninghui Sun, et~al.
+\newblock Dadiannao: A machine-learning supercomputer.
+\newblock In {\em Proceedings of the 47th Annual IEEE/ACM International
+  Symposium on Microarchitecture}, pages 609--622. IEEE Computer Society, 2014.
+
+\bibitem{chen2014diannao}
+Tianshi Chen, Zidong Du, Ninghui Sun, Jia Wang, Chengyong Wu, Yunji Chen, and
+  Olivier Temam.
+\newblock Diannao: A small-footprint high-throughput accelerator for ubiquitous
+  machine-learning.
+\newblock In {\em ACM Sigplan Notices}, volume~49, pages 269--284. ACM, 2014.
+
+\bibitem{han2016eie}
+Song Han, Xingyu Liu, Huizi Mao, Jing Pu, Ardavan Pedram, Mark~A Horowitz, and
+  William~J Dally.
+\newblock Eie: efficient inference engine on compressed deep neural network.
+\newblock In {\em Proceedings of the 43rd International Symposium on Computer
+  Architecture}, pages 243--254. IEEE Press, 2016.
+
+\bibitem{han2016ese}
+Song Han, Junlong Kang, Huizi Mao, Yiming Hu, Xin Li, Yubin Li, Dongliang Xie,
+  Hong Luo, Song Yao, Yu~Wang, et~al.
+\newblock Ese: Efficient speech recognition engine with compressed lstm on
+  fpga.
+\newblock {\em arXiv preprint arXiv:1612.00694}, 2016.
+
+\bibitem{zhang2015optimizing}
+Chen Zhang, Peng Li, Guangyu Sun, Yijin Guan, Bingjun Xiao, and Jason Cong.
+\newblock Optimizing fpga-based accelerator design for deep convolutional
+  neural networks.
+\newblock In {\em Proceedings of the 2015 ACM/SIGDA International Symposium on
+  Field-Programmable Gate Arrays}, pages 161--170. ACM, 2015.
+
+\bibitem{Nurvitadhi:2017:FBG:3020078.3021740}
+Eriko Nurvitadhi, Ganesh Venkatesh, Jaewoong Sim, Debbie Marr, Randy Huang,
+  Jason Ong Gee~Hock, Yeong~Tat Liew, Krishnan Srivatsan, Duncan Moss, Suchit
+  Subhaschandra, and Guy Boudoukh.
+\newblock Can fpgas beat gpus in accelerating next-generation deep neural
+  networks?
+\newblock In {\em Proceedings of the 2017 ACM/SIGDA International Symposium on
+  Field-Programmable Gate Arrays}, FPGA '17, pages 5--14, New York, NY, USA,
+  2017. ACM.
+
+\bibitem{chen2017eyeriss}
+Yu-Hsin Chen, Tushar Krishna, Joel~S Emer, and Vivienne Sze.
+\newblock Eyeriss: An energy-efficient reconfigurable accelerator for deep
+  convolutional neural networks.
+\newblock {\em IEEE Journal of Solid-State Circuits}, 52(1):127--138, 2017.
+
+\bibitem{Mladenic}
+Dunja Mladeni{\'c}, Janez Brank, Marko Grobelnik, and Natasa Milic-Frayling.
+\newblock Feature selection using linear classifier weights: interaction with
+  classification models.
+\newblock In {\em Proceedings of the 27th annual international ACM SIGIR
+  conference on Research and development in information retrieval}, pages
+  234--241. ACM, 2004.
+
+\bibitem{Hassibi}
+Babak Hassibi, David~G Stork, et~al.
+\newblock Second order derivatives for network pruning: Optimal brain surgeon.
+\newblock {\em Advances in neural information processing systems}, pages
+  164--164, 1993.
+
+\bibitem{Srinivas2015}
+Suraj Srinivas and R~Venkatesh Babu.
+\newblock Data-free parameter pruning for deep neural networks.
+\newblock {\em arXiv preprint arXiv:1507.06149}, 2015.
+
+\bibitem{chen2015compressing}
+Wenlin Chen, James Wilson, Stephen Tyree, Kilian Weinberger, and Yixin Chen.
+\newblock Compressing neural networks with the hashing trick.
+\newblock In {\em International Conference on Machine Learning}, pages
+  2285--2294, 2015.
+
+\bibitem{moons2016energy}
+Bert Moons and Marian Verhelst.
+\newblock An energy-efficient precision-scalable convnet processor in a 40-nm
+  cmos.
+\newblock {\em IEEE Journal of Solid-State Circuits}, 2016.
+
+\bibitem{Hubara}
+Itay Hubara, Matthieu Courbariaux, Daniel Soudry, Ran El-Yaniv, and Yoshua
+  Bengio.
+\newblock Quantized neural networks: Training neural networks with low
+  precision weights and activations.
+\newblock {\em arXiv preprint arXiv:1609.07061}, 2016.
+
+\bibitem{Courbariaux}
+Matthieu Courbariaux, Itay Hubara, Daniel Soudry, Ran El-Yaniv, and Yoshua
+  Bengio.
+\newblock Binarized neural networks: Training deep neural networks with weights
+  and activations constrained to+ 1 or-1.
+\newblock {\em arXiv preprint arXiv:1602.02830}, 2016.
+
+\bibitem{tensorflow}
+Mart{\'{\i}}n Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen,
+  Craig Citro, Gregory~S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin,
+  Sanjay Ghemawat, Ian~J. Goodfellow, Andrew Harp, Geoffrey Irving, Michael
+  Isard, Yangqing Jia, Rafal J{\'{o}}zefowicz, Lukasz Kaiser, Manjunath Kudlur,
+  Josh Levenberg, Dan Man{\'{e}}, Rajat Monga, Sherry Moore, Derek~Gordon
+  Murray, Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya
+  Sutskever, Kunal Talwar, Paul~A. Tucker, Vincent Vanhoucke, Vijay Vasudevan,
+  Fernanda~B. Vi{\'{e}}gas, Oriol Vinyals, Pete Warden, Martin Wattenberg,
+  Martin Wicke, Yuan Yu, and Xiaoqiang Zheng.
+\newblock Tensorflow: Large-scale machine learning on heterogeneous distributed
+  systems.
+\newblock {\em CoRR}, abs/1603.04467, 2016.
+
+\bibitem{lecun1998mnist}
+Yann LeCun, Corinna Cortes, and Christopher~JC Burges.
+\newblock The mnist database of handwritten digits, 1998.
+
+\bibitem{krizhevsky2014cifar}
+Alex Krizhevsky, Vinod Nair, and Geoffrey Hinton.
+\newblock The cifar-10 dataset, 2014.
+
+\bibitem{lecun2015lenet}
+Yann LeCun et~al.
+\newblock Lenet-5, convolutional neural networks.
+\newblock {\em URL: http://yann. lecun. com/exdb/lenet}, 2015.
+
+\bibitem{torralba200880}
+Antonio Torralba, Rob Fergus, and William~T Freeman.
+\newblock 80 million tiny images: A large data set for nonparametric object and
+  scene recognition.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  30(11):1958--1970, 2008.
+
+\bibitem{krizhevsky2009learning}
+Alex Krizhevsky and Geoffrey Hinton.
+\newblock Learning multiple layers of features from tiny images.
+\newblock 2009.
+
+\bibitem{jia2014caffe}
+Yangqing Jia, Evan Shelhamer, Jeff Donahue, Sergey Karayev, Jonathan Long, Ross
+  Girshick, Sergio Guadarrama, and Trevor Darrell.
+\newblock Caffe: Convolutional architecture for fast feature embedding.
+\newblock {\em arXiv preprint arXiv:1408.5093}, 2014.
+
+\bibitem{Thimm}
+Georg Thimm and Emile Fiesler.
+\newblock Pruning of neural networks.
+\newblock Technical report, IDIAP, 1997.
+
+\bibitem{molchanov2016pruning}
+Pavlo Molchanov, Stephen Tyree, Tero Karras, Timo Aila, and Jan Kautz.
+\newblock Pruning convolutional neural networks for resource efficient transfer
+  learning.
+\newblock {\em arXiv preprint arXiv:1611.06440}, 2016.
+
+\bibitem{nie2010efficient}
+Feiping Nie, Heng Huang, Xiao Cai, and Chris~H Ding.
+\newblock Efficient and robust feature selection via joint l2, 1-norms
+  minimization.
+\newblock In {\em Advances in neural information processing systems}, pages
+  1813--1821, 2010.
+
+\bibitem{mellempudi2017mixed}
+Naveen Mellempudi, Abhisek Kundu, Dipankar Das, Dheevatsa Mudigere, and Bharat
+  Kaul.
+\newblock Mixed low-precision deep learning inference using dynamic fixed
+  point.
+\newblock {\em arXiv preprint arXiv:1701.08978}, 2017.
+
+\bibitem{kanungo2002efficient}
+Tapas Kanungo, David~M Mount, Nathan~S Netanyahu, Christine~D Piatko, Ruth
+  Silverman, and Angela~Y Wu.
+\newblock An efficient k-means clustering algorithm: Analysis and
+  implementation.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  24(7):881--892, 2002.
+
+\bibitem{ercegovac2004digital}
+Milo{\v{s}}~D Ercegovac and Tomas Lang.
+\newblock {\em Digital arithmetic}.
+\newblock Elsevier, 2004.
+
+\bibitem{williamson1991dynamically}
+Darrell Williamson.
+\newblock Dynamically scaled fixed point arithmetic.
+\newblock In {\em Communications, Computers and Signal Processing, 1991., IEEE
+  Pacific Rim Conference on}, pages 315--318. IEEE, 1991.
+
+\bibitem{courbariaux2014training}
+Matthieu Courbariaux, Yoshua Bengio, and Jean-Pierre David.
+\newblock Training deep neural networks with low precision multiplications.
+\newblock {\em arXiv preprint arXiv:1412.7024}, 2014.
+
+\bibitem{Gysel}
+Philipp Gysel.
+\newblock Ristretto: Hardware-oriented approximation of convolutional neural
+  networks.
+\newblock {\em CoRR}, abs/1605.06402, 2016.
+
+\bibitem{Li2016}
+Hao Li, Asim Kadav, Igor Durdanovic, Hanan Samet, and Hans~Peter Graf.
+\newblock Pruning filters for efficient convnets.
+\newblock {\em arXiv preprint arXiv:1608.08710}, 2016.
+
+\bibitem{Kang}
+Guoliang Kang, Jun Li, and Dacheng Tao.
+\newblock Shakeout: a new regularized deep neural network training scheme.
+\newblock In {\em Proceedings of the Thirtieth AAAI Conference on Artificial
+  Intelligence}, pages 1751--1757. AAAI Press, 2016.
+
+\bibitem{tann2017hardware}
+Hokchhay Tann, Soheil Hashemi, Iris Bahar, and Sherief Reda.
+\newblock Hardware-software codesign of accurate, multiplier-free deep neural
+  networks.
+\newblock {\em arXiv preprint arXiv:1705.04288}, 2017.
+
+\bibitem{DBLP:journals/corr/MolchanovTKAK16}
+Pavlo Molchanov, Stephen Tyree, Tero Karras, Timo Aila, and Jan Kautz.
+\newblock Pruning convolutional neural networks for resource efficient transfer
+  learning.
+\newblock {\em CoRR}, abs/1611.06440, 2016.
+
+\end{thebibliography}
