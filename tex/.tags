@@ -18,28 +18,21 @@ total_pr	/Users/aaron/Projects/Mphil_project/report/tex/calculate_cifar_cp.py	/^
 cr	/Users/aaron/Projects/Mphil_project/report/tex/calculate_cifar_cp.py	/^cr = (4.8 + 102.4 + 885 + 74 + 2) \/ float((4.8 + 102.4 + 885 + 74 + 2) - total_pr)$/;"	variable	line:11
 perct	/Users/aaron/Projects/Mphil_project/report/tex/calculate_cifar_cp.py	/^perct =  float(cr) \/ (4.8 + 102.4 + 885 + 74 + 2)$/;"	variable	line:12
 Introduction	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\onehalfspacing$/;"	chapter	line:60
-Background	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^the compression rates of many existing works.$/;"	chapter	line:147
-Convolutional Neural Networks	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\chapter{Background}$/;"	section	line:149
-Related Work	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^Krizhevsky, Coates}.$/;"	section	line:209
-Pruning	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\end{table}$/;"	chapter	line:378
-Deterministic Pruning	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^summarize their performances on selected neural network models.$/;"	section	line:393
-Pruning with biases	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\section{Deterministic Pruning}$/;"	subsubsection	line:394
-Pruning without biases	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\end{table}$/;"	subsubsection	line:537
-Dynamic Network Surgery	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^networks.$/;"	section	line:598
-Comparison to Existing Works	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^the targeting network.$/;"	section	line:702
-Proposed Pruning Strategies	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^networks.$/;"	chapter	line:798
-Gradient Profiling	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^induce better pruning results.$/;"	section	line:807
-Method Description	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^to inspect weights that are small in values but important for test accuracies.$/;"	subsubsection	line:817
-Gradient Profiling and Retraining	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\end{equation}$/;"	subsubsection	line:887
-Regularization Aided Pruning	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^limited retraining resources still worths further evaluations.$/;"	section	line:981
-$l_1$ and $l_2$ Norms	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^lead to efficient pruning.$/;"	subsubsection	line:991
-Proposed Quantization Strategies	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^could be evaluated in future works.$/;"	chapter	line:1472
-Customized Floating point Quantization	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^to fully explore the weights distribution by re-centralizing the arithmetics.$/;"	section	line:1483
-Centralized Customized Floating point Quantization	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^able to recover fully.$/;"	section	line:1605
-Motivation	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^I then describe the mechanism and show the quantization results.$/;"	subsubsection	line:1613
-Method Description	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^because these weights have been pruned away already.$/;"	subsubsection	line:1708
-Results	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\end{equation}$/;"	subsubsection	line:1750
-Summary of Quantization Methods	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^are more sensitive to precisions in the weights representations.$/;"	section	line:1832
-Evaluation	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\end{table}$/;"	chapter	line:1889
-Compression Pipeline	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\chapter{Evaluation}$/;"	section	line:1908
-Performance Evaluation	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^quantization.$/;"	section	line:1972
+Background	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^by considerable margins \\cite{Han15,Guo}.$/;"	chapter	line:202
+Convolutional Neural Networks	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\chapter{Background}$/;"	section	line:204
+Pruning	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\end{table}$/;"	chapter	line:549
+Deterministic Pruning	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^existing fine-grained pruning strategies on selected neural network models.$/;"	section	line:563
+Pruning Both Weights and Biases	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\section{Deterministic Pruning}$/;"	subsubsection	line:565
+Pruning Weights Only	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\end{table}$/;"	subsubsection	line:706
+Dynamic Network Surgery	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^networks.$/;"	section	line:773
+Comparison to Existing Works	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^after retraining, it will be turned on again.$/;"	section	line:895
+Summary of Pruning Methods	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^network and thus provide better pruning results.$/;"	section	line:1328
+Quantization	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^\\end{enumerate}$/;"	chapter	line:1414
+Weights Sharing	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^arithmetic}, are also compared and evaluated.$/;"	section	line:1433
+Optimized Quantization Strategies	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^of test accuracies.$/;"	chapter	line:1757
+Customized Floating point Quantization	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^centres of arithmetics.$/;"	section	line:1769
+Re centralized Quantization	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^able to recover fully.$/;"	section	line:1905
+Motivation	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^and show the quantization results.$/;"	subsubsection	line:1914
+Method Description	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^because these weights have been pruned away already.$/;"	subsubsection	line:2010
+Results	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^data movements and thus reduces energy efficiency.$/;"	subsubsection	line:2100
+Summary of Quantization Methods	/Users/aaron/Projects/Mphil_project/report/tex/acs-dissertation.tex	/^accuracy at a precision of only $6$ bits.$/;"	section	line:2212

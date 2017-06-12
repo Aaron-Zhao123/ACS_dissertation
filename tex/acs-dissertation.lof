@@ -1,28 +1,30 @@
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Popular networks targeting on \textit {ImageNet ILSVRC 2012} dataset \cite {deng2009imagenet}.}}{3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces AlexNet Network Architecture \cite {Krizhevsky}.}}{5}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Fully connected layer followed by an activation function \cite {Krizhevsky}.}}{5}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces AlexNet Network Architecture \cite {Krizhevsky}.}}{6}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Fully connected layer followed by an activation function \cite {Krizhevsky}.}}{7}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Taxonomy of compression techniques.}}{9}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces LeNet5 Network Architecture}}{12}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces CifarNet Network Architecture}}{13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces LeNet5 Network Architecture}}{10}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces CifarNet Network Architecture}}{11}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Distribution of weights in the first fully-connected layer of pruned and unpruned LeNet5}}{17}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Mechanism of \textit {Dynamic network surgery} \cite {Guo}.}}{19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Distribution of weights in fc1 layer of pruned and unpruned LeNet5}}{15}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Mechanism of Dynamic network surgery \cite {Guo}.}}{17}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Pruning with \textit {Gradient profiling}. The top row is identical to \textit {Dynamic network surgery}, the second row is the three phases of \textit {Gradient profiling}}}{25}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \textit {Gradient profiling} and \textit {Dynamic network surgery} without retraining. The figure shows how various compressions affect test accuracies.}}{28}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \textit {Gradient profiling} and \textit {Dynamic network surgery} with 10 epochs retraining. The figure shows how various compressed sizes affect test accuracies.}}{28}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Effects of $l1$ and $l2$ norms with different hyperparameters.}}{30}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces \textit {Gradient Profiling}.}}{23}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces \textit {Gradient profiling} and \textit {Dynamic network surgery} without retraining.}}{25}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces \textit {Gradient profiling} and \textit {Dynamic network surgery} with 10 epochs retraining.}}{26}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Effects of $l1$ and $l2$ norms with different hyperparameters.}}{27}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Weights sharing: training (bottom) and inference (top) \cite {Han15}.}}{35}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Number representation system for fixed-point quantization with 1-bit sign and N-bit fraction.}}{37}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Weights sharing: training (bottom) and inference (top) \cite {Han15}.}}{32}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Number representation system for fixed-point quantization with n-bit fraction.}}{34}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Number representation system for customized floating-point quantization with e-bit exponent and m-bit mantissa.}}{43}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Parameter distribution of the first fully connected layer in \textit { LeNet5}, and the color coded arithmetic precisions using \textit {Customized floating-point quantization} with $1$-bit sign, $1$-bit exponent and $3$-bit fraction. A deeper red color corresponds to a greater arithmetic precision, the quantization is non-linear since the representations is focused on a particular range.}}{46}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Parameter distribution of the first fully connected layer in \textit { LeNet5}, and the color coded arithmetic precisions using \textit {Centralized customized floating-point quantization} with $1$-bit sign, $1$-bit centre, $1$-bit exponent and $3$-bit fraction. A deeper red color corresponds to a greater arithmetic precision, the quantization is non-linear since the representations is focused on particular ranges.}}{47}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Number representation system for \textit {Re-centralized customized floating-point quantization} with 1-bit sign, 1-bit central, E-bit exponent and M-bit mantissa.}}{47}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Number representation system for \textit {Re-centralized dynmaic fixed-point quantization} with 1-bit sign, 1-bit central and $N$-bit fraction.}}{48}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Distribution of weights (blue) and distribution of codebook before (green) and after \textit {Weights sharing}(red).}}{49}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Number representation system for customized floating-point quantization with e-bit exponent and m-bit mantissa.}}{39}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Parameter distribution of the first fully connected layer in \textit { LeNet5}, and the color coded arithmetic precisions using \textit {Customized floating-point quantization} with $1$ bit sign, $1$ bit exponent and $3$ bits fraction. A deeper red color corresponds to a greater arithmetic precision.}}{41}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Parameter distribution of the first fully connected layer in \textit { LeNet5}, and the color coded arithmetic precisions using \textit {Centralized customized floating-point quantization} with $1$ bit sign, $1$ bit centre, $1$ bit exponent and $3$ bits fraction. A deeper red color corresponds to a greater arithmetic precision.}}{42}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Number representation system for \textit {Re-centralized customized floating-point quantization} with E-bit exponent and M-bit mantissa.}}{43}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Number representation system for \textit {Re-centralized dynmaic fixed-point quantization} with N-bit fraction.}}{43}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Overview of \textit {Deep Compression} \cite {Han15}.}}{49}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Overview of the proposed compression pipeline.}}{49}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Overview of \textit {Deep Compression} \cite {Han15}.}}{54}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Overview of the proposed compression pipeline.}}{54}
 \addvspace {10\p@ }

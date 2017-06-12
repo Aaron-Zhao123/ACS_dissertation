@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.2)  28 MAY 2017 00:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.2)  11 JUN 2017 14:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -693,22 +693,10 @@ File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 ) (./acs-dissertation.aux
 
-LaTeX Warning: Label `prune_without_biase' multiply defined.
-
-
-LaTeX Warning: Label `prune_without_biase@cref' multiply defined.
-
-
 LaTeX Warning: Label `equ:hfunc_ds' multiply defined.
 
 
 LaTeX Warning: Label `equ:hfunc_ds@cref' multiply defined.
-
-
-LaTeX Warning: Label `tab:CifarNetPrune2' multiply defined.
-
-
-LaTeX Warning: Label `tab:CifarNetPrune2@cref' multiply defined.
 
 
 LaTeX Warning: Label `equ:d2dfp' multiply defined.
@@ -810,24 +798,24 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 \openout4 = `acs-dissertation.toc'.
 
  [2] (./acs-dissertation.lof
-Overfull \hbox (5.82951pt too wide) in paragraph at lines 14--14
+Overfull \hbox (3.87361pt too wide) in paragraph at lines 2--2
+ [][] []\OT1/cmr/m/n/12 Popular net-works tar-get-ing on \OT1/cmr/m/it/12 Im-a-geNet ILSVRC 2012 \OT1/cmr/m/n/12 dataset 
+ []
+
+
+Overfull \hbox (5.82951pt too wide) in paragraph at lines 15--15
  [][] []\OT1/cmr/m/it/12 Gradient pro-fil-ing \OT1/cmr/m/n/12 and \OT1/cmr/m/it/12 Dy-namic net-work surgery \OT1/cmr/m/n/12 with 10 epochs 
  []
 
 
-Overfull \hbox (5.6404pt too wide) in paragraph at lines 18--18
+Overfull \hbox (5.6404pt too wide) in paragraph at lines 19--19
  [][] []\OT1/cmr/m/n/12 Number rep-re-sen-ta-tion sys-tem for fixed-point quan-ti-za-tion with 
  []
 
 [3
 
 ]
-Overfull \hbox (4.25415pt too wide) in paragraph at lines 23--23
- \OT1/cmr/m/it/12 floating-point quan-ti-za-tion \OT1/cmr/m/n/12 with E-bit ex-po-nent and M-bit man- 
- []
-
-
-Overfull \hbox (5.153pt too wide) in paragraph at lines 24--24
+Overfull \hbox (5.153pt too wide) in paragraph at lines 25--25
  [][] []\OT1/cmr/m/n/12 Number rep-re-sen-ta-tion sys-tem for \OT1/cmr/m/it/12 Re-centralized dyn-maic fixed- 
  []
 
@@ -842,7 +830,7 @@ Overfull \hbox (3.83354pt too wide) in paragraph at lines 28--28
  [][] []\OT1/cmr/m/n/12 Quantization sum-mary on a pruned \OT1/cmr/m/it/12 LeNet5 \OT1/cmr/m/n/12 model. \OT1/cmr/m/it/12 Cus-tomized 
  []
 
-
+[6]
 Overfull \hbox (7.03557pt too wide) in paragraph at lines 31--31
  [][] []\OT1/cmr/m/n/12 Quantization sum-mary (bit-width, er-ror rate) on pruned \OT1/cmr/m/it/12 LeNet5 
  []
@@ -851,50 +839,58 @@ Overfull \hbox (7.03557pt too wide) in paragraph at lines 31--31
 \tf@lot=\write6
 \openout6 = `acs-dissertation.lot'.
 
- [6] [7]
+ [7]
 Chapter 1.
 [1
 
-] [2] [3]
-Chapter 2.
-<fig_alexnet.png, id=76, 748.7975pt x 260.975pt>
-File: fig_alexnet.png Graphic file (type png)
- <use fig_alexnet.png>
-Package pdftex.def Info: fig_alexnet.png used on input line 164.
-(pdftex.def)             Requested size: 390.0pt x 135.92679pt.
+] <fig_network_size.pdf, id=70, 837.7995pt x 364.25958pt>
+File: fig_network_size.pdf Graphic file (type pdf)
+ <use fig_network_size.pdf>
+Package pdftex.def Info: fig_network_size.pdf used on input line 132.
+(pdftex.def)             Requested size: 390.0pt x 169.56792pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4
+[2] [3 <./fig_network_size.pdf>] [4]
+Chapter 2.
+<fig_alexnet.png, id=92, 748.7975pt x 260.975pt>
+File: fig_alexnet.png Graphic file (type png)
+ <use fig_alexnet.png>
+Package pdftex.def Info: fig_alexnet.png used on input line 247.
+(pdftex.def)             Requested size: 390.0pt x 135.92679pt.
+ [5
 
-] <fig_neuron.png, id=82, 830.10126pt x 242.9075pt>
+] <fig_neuron.png, id=97, 830.10126pt x 242.9075pt>
 File: fig_neuron.png Graphic file (type png)
  <use fig_neuron.png>
-Package pdftex.def Info: fig_neuron.png used on input line 183.
+Package pdftex.def Info: fig_neuron.png used on input line 266.
 (pdftex.def)             Requested size: 390.0pt x 114.12206pt.
- [5 <./fig_alexnet.png> <./fig_neuron.png>] [6] [7] [8]
-Chapter 3.
-[9
+ [6 <./fig_alexnet.png>] [7 <./fig_neuron.png>]
+Missing character: There is no ] in font nullfont!
+ [8] [9] [10]
+Overfull \hbox (2.6858pt too wide) in paragraph at lines 460--460
+[]\OT1/cmr/bx/n/17.28 Experiment Se-tups, Datasets and Trained
+ []
 
-] <fig_mnist.png, id=103, 432.8973pt x 150.3216pt>
+[11] <fig_mnist.png, id=125, 432.8973pt x 150.3216pt>
 File: fig_mnist.png Graphic file (type png)
  <use fig_mnist.png>
-Package pdftex.def Info: fig_mnist.png used on input line 346.
+Package pdftex.def Info: fig_mnist.png used on input line 504.
 (pdftex.def)             Requested size: 390.0pt x 135.43037pt.
- [10 <./fig_mnist.png>] <fig_cifarnet.png, id=108, 534.798pt x 167.6664pt>
+ [12 <./fig_mnist.png>] <fig_cifarnet.png, id=131, 534.798pt x 167.6664pt>
 File: fig_cifarnet.png Graphic file (type png)
  <use fig_cifarnet.png>
-Package pdftex.def Info: fig_cifarnet.png used on input line 364.
+Package pdftex.def Info: fig_cifarnet.png used on input line 535.
 (pdftex.def)             Requested size: 390.0pt x 122.27263pt.
- [11 <./fig_cifarnet.png>]
-Chapter 4.
-[12
+ [13 <./fig_cifarnet.png>]
+Chapter 3.
+[14
 
-] [13] <distr_weights.pdf, id=121, 1094.83112pt x 526.58028pt>
+] [15] <distr_weights.pdf, id=143, 1094.83112pt x 526.58028pt>
 File: distr_weights.pdf Graphic file (type pdf)
  <use distr_weights.pdf>
-Package pdftex.def Info: distr_weights.pdf used on input line 488.
+Package pdftex.def Info: distr_weights.pdf used on input line 658.
 (pdftex.def)             Requested size: 390.0pt x 187.57608pt.
 
 
@@ -903,170 +899,203 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14] [15 <./distr_weights.pdf>] [16] <fig_dns.png, id=150, 989.6975pt x 329.23pt>
+[16] [17 <./distr_weights.pdf>] [18] <fig_dns.png, id=173, 916.42375pt x 271.51437pt>
 File: fig_dns.png Graphic file (type png)
  <use fig_dns.png>
-Package pdftex.def Info: fig_dns.png used on input line 612.
-(pdftex.def)             Requested size: 390.0pt x 129.73546pt.
- [17 <./fig_dns.png>]
+Package pdftex.def Info: fig_dns.png used on input line 787.
+(pdftex.def)             Requested size: 390.0pt x 115.54742pt.
+ [19 <./fig_dns.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[18]
-Overfull \hbox (59.56415pt too wide) in paragraph at lines 711--733
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20]
+Overfull \hbox (51.7309pt too wide) in paragraph at lines 904--926
  [][] 
  []
 
-[19] [20] [21]
-Chapter 5.
 
-Overfull \hbox (3.27531pt too wide) in paragraph at lines 820--825
-\OT1/cmr/m/n/12 The \OT1/cmr/m/it/12 Gra-di-ent pro-fil-ing \OT1/cmr/m/n/12 method is nearly iden-ti-cal to \OT1/cmr/m/it/12 Dy-namic net-work surgery\OT1/cmr/m/n/12 ,
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22
+[21]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22] [23]
+Chapter 4.
+[24
 
 ]
-Overfull \hbox (59.23114pt too wide) in paragraph at lines 837--838
- [][] 
+Overfull \hbox (8.33221pt too wide) in paragraph at lines 1022--1029
+\OT1/cmr/m/n/12 Pruning with \OT1/cmr/m/it/12 Gra-di-ent pro-fil-ing \OT1/cmr/m/n/12 is nearly iden-ti-cal to \OT1/cmr/m/it/12 Dy-namic net-work surgery\OT1/cmr/m/n/12 ,
  []
 
-[23] <gradient_profile_noretrain.pdf, id=174, 1192.93715pt x 428.05351pt>
+<fig_gp_mech.pdf, id=195, 665.40489pt x 217.98479pt>
+File: fig_gp_mech.pdf Graphic file (type pdf)
+ <use fig_gp_mech.pdf>
+Package pdftex.def Info: fig_gp_mech.pdf used on input line 1046.
+(pdftex.def)             Requested size: 390.0pt x 127.76505pt.
+ [25 <./fig_gp_mech.pdf>] [26] <gradient_profile_noretrain.pdf, id=237, 1192.93715pt x 428.05351pt>
 File: gradient_profile_noretrain.pdf Graphic file (type pdf)
  <use gradient_profile_noretrain.pdf>
-Package pdftex.def Info: gradient_profile_noretrain.pdf used on input line 920.
+Package pdftex.def Info: gradient_profile_noretrain.pdf used on input line 1145.
 (pdftex.def)             Requested size: 390.0pt x 139.9387pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[24] <gradient_profile_10epoch.pdf, id=179, 1216.56706pt x 418.493pt>
+[27] <gradient_profile_10epoch.pdf, id=241, 1216.56706pt x 418.493pt>
 File: gradient_profile_10epoch.pdf Graphic file (type pdf)
  <use gradient_profile_10epoch.pdf>
-Package pdftex.def Info: gradient_profile_10epoch.pdf used on input line 943.
+Package pdftex.def Info: gradient_profile_10epoch.pdf used on input line 1170.
 (pdftex.def)             Requested size: 390.0pt x 134.15675pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[25 <./gradient_profile_noretrain.pdf>] [26 <./gradient_profile_10epoch.pdf>] <l1l2norm.png, id=205, 958.58125pt x 522.95375pt>
+ [28 <./gradient_profile_noretrain.pdf> <./gradient_profile_10epoch.pdf>] [29] <l1l2norm.png, id=266, 1294.8375pt x 756.8275pt>
 File: l1l2norm.png Graphic file (type png)
  <use l1l2norm.png>
-Package pdftex.def Info: l1l2norm.png used on input line 1013.
-(pdftex.def)             Requested size: 390.0pt x 212.76064pt.
- [27 <./l1l2norm.png>] [28] [29]
-Overfull \hbox (5.64034pt too wide) in paragraph at lines 1148--1149
-[]\OT1/cmr/m/n/12 Nondeterministic prun-ing achieves bet-ter com-pres-sion rates since pruned
- []
+Package pdftex.def Info: l1l2norm.png used on input line 1251.
+(pdftex.def)             Requested size: 390.0pt x 227.95076pt.
+ [30 <./l1l2norm.png>]
 
-[30]
-Chapter 6.
-[31
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-] <fig_weights_share.png, id=225, 869.2475pt x 431.6125pt>
-File: fig_weights_share.png Graphic file (type png)
- <use fig_weights_share.png>
-Package pdftex.def Info: fig_weights_share.png used on input line 1201.
-(pdftex.def)             Requested size: 390.0pt x 193.65085pt.
- [32 <./fig_weights_share.png>]
-Overfull \hbox (10.72043pt too wide) in paragraph at lines 1224--1243
- [][] 
+[31]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[32]
+Overfull \hbox (9.55696pt too wide) in paragraph at lines 1410--1411
+[]\OT1/cmr/m/n/12 Non-deterministic prun-ing achieves bet-ter com-pres-sion rates since pruned
  []
 
 [33]
+Chapter 5.
+[34
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[34] [35]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[36] [37]
-Chapter 7.
-
-Overfull \hbox (3.14336pt too wide) in paragraph at lines 1490--1516
-[]\OT1/cmr/m/n/12 In \OT1/cmr/m/it/12 Dy-namic fixed-point\OT1/cmr/m/n/12 , each num-ber is rep-re-sented as: $(\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 1)[]2[] [][] 2[]\OML/cmm/m/it/12 x[]$\OT1/cmr/m/n/12 .
- []
-
-[38
-
-] [39] [40] <fig_unpruned.png, id=258, 1780.6525pt x 639.38875pt>
-File: fig_unpruned.png Graphic file (type png)
- <use fig_unpruned.png>
-Package pdftex.def Info: fig_unpruned.png used on input line 1624.
-(pdftex.def)             Requested size: 390.0pt x 140.0318pt.
-
-Overfull \hbox (74.04388pt too wide) in paragraph at lines 1639--1643
-[][] 
- []
-
-[41 <./fig_unpruned.png>] <fig_pruned.png, id=263, 1726.45pt x 617.30624pt>
-File: fig_pruned.png Graphic file (type png)
- <use fig_pruned.png>
-Package pdftex.def Info: fig_pruned.png used on input line 1662.
-(pdftex.def)             Requested size: 390.0pt x 139.44365pt.
-
-Overfull \hbox (74.04388pt too wide) in paragraph at lines 1688--1692
-[][] 
- []
-
-[42 <./fig_pruned.png>] [43] [44] [45] [46] [47]
-Chapter 8.
-<fig_dc.pdf, id=284, 889.63231pt x 391.8374pt>
-File: fig_dc.pdf Graphic file (type pdf)
- <use fig_dc.pdf>
-Package pdftex.def Info: fig_dc.pdf used on input line 2013.
-(pdftex.def)             Requested size: 390.0pt x 171.7752pt.
- <fig_proposed_flow.pdf, id=285, 893.94131pt x 503.59651pt>
-File: fig_proposed_flow.pdf Graphic file (type pdf)
- <use fig_proposed_flow.pdf>
-Package pdftex.def Info: fig_proposed_flow.pdf used on input line 2025.
-(pdftex.def)             Requested size: 390.0pt x 219.7005pt.
- [48
-
-] [49 <./fig_dc.pdf> <./fig_proposed_flow.pdf>]
-Overfull \hbox (42.68211pt too wide) in paragraph at lines 2052--2067
+] <fig_weights_share.png, id=286, 869.2475pt x 431.6125pt>
+File: fig_weights_share.png Graphic file (type png)
+ <use fig_weights_share.png>
+Package pdftex.def Info: fig_weights_share.png used on input line 1465.
+(pdftex.def)             Requested size: 390.0pt x 193.65085pt.
+ [35 <./fig_weights_share.png>]
+Overfull \hbox (10.72043pt too wide) in paragraph at lines 1488--1509
  [][] 
  []
 
-[50] [51]
-Chapter 9.
+[36]
 
-Overfull \hbox (31.42479pt too wide) in paragraph at lines 2133--2135
-\OT1/cmr/m/n/12 Inspired by these ex-ist-ing com-pres-sion tech-niques, some novel prun-ing/quantization
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[37] [38] [39] [40] [41]
+Chapter 6.
+
+Overfull \hbox (3.14336pt too wide) in paragraph at lines 1776--1802
+[]\OT1/cmr/m/n/12 In \OT1/cmr/m/it/12 Dy-namic fixed-point\OT1/cmr/m/n/12 , each num-ber is rep-re-sented as: $(\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 1)[]2[] [][] 2[]\OML/cmm/m/it/12 x[]$\OT1/cmr/m/n/12 .
  []
 
-[52
+[42
 
-] [53] [54] (./acs-dissertation.bbl [55] [56
+] [43] [44] <fig_unpruned.png, id=323, 1780.6525pt x 639.38875pt>
+File: fig_unpruned.png Graphic file (type png)
+ <use fig_unpruned.png>
+Package pdftex.def Info: fig_unpruned.png used on input line 1922.
+(pdftex.def)             Requested size: 390.0pt x 140.0318pt.
 
-] [57] [58] [59]
-Underfull \hbox (badness 1466) in paragraph at lines 268--272
+Overfull \hbox (74.04388pt too wide) in paragraph at lines 1937--1942
+[][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<fig_pruned.png, id=324, 1726.45pt x 617.30624pt>
+File: fig_pruned.png Graphic file (type png)
+ <use fig_pruned.png>
+Package pdftex.def Info: fig_pruned.png used on input line 1965.
+(pdftex.def)             Requested size: 390.0pt x 139.44365pt.
+
+Overfull \hbox (74.04388pt too wide) in paragraph at lines 1991--1996
+[][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[45] [46 <./fig_unpruned.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[47 <./fig_pruned.png>] <fig_weightsshare.png, id=336, 1037.8775pt x 399.4925pt>
+File: fig_weightsshare.png Graphic file (type png)
+ <use fig_weightsshare.png>
+Package pdftex.def Info: fig_weightsshare.png used on input line 2087.
+(pdftex.def)             Requested size: 390.0pt x 150.1202pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[48]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[49 <./fig_weightsshare.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[50]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[51] [52]
+Chapter 7.
+<fig_dc.pdf, id=355, 889.63231pt x 391.8374pt>
+File: fig_dc.pdf Graphic file (type pdf)
+ <use fig_dc.pdf>
+Package pdftex.def Info: fig_dc.pdf used on input line 2341.
+(pdftex.def)             Requested size: 390.0pt x 171.7752pt.
+ <fig_proposed_flow.pdf, id=356, 889.76642pt x 508.47586pt>
+File: fig_proposed_flow.pdf Graphic file (type pdf)
+ <use fig_proposed_flow.pdf>
+Package pdftex.def Info: fig_proposed_flow.pdf used on input line 2353.
+(pdftex.def)             Requested size: 390.0pt x 222.8766pt.
+ [53
+
+] [54 <./fig_dc.pdf> <./fig_proposed_flow.pdf>]
+Overfull \hbox (68.46657pt too wide) in paragraph at lines 2380--2395
+ [][] 
+ []
+
+[55] [56] [57]
+Chapter 8.
+[58
+
+] [59] [60] (./acs-dissertation.bbl [61] [62
+
+] [63] [64] [65] [66]
+Underfull \hbox (badness 1466) in paragraph at lines 343--347
 []\OT1/cmr/m/n/12 Hokchhay Tann, So-heil Hashemi, Iris Ba-har, and Sherief Reda.
  []
 
-) [60] (./acs-dissertation.aux)
+) [67] (./acs-dissertation.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15826 strings out of 493014
- 326293 string characters out of 6133351
- 370200 words of memory out of 5000000
- 19040 multiletter control sequences out of 15000+600000
- 12295 words of font info for 43 fonts, out of 8000000 for 9000
+ 15942 strings out of 493014
+ 329361 string characters out of 6133351
+ 373496 words of memory out of 5000000
+ 19149 multiletter control sequences out of 15000+600000
+ 13534 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,15n,66p,664b,734s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on acs-dissertation.pdf (73 pages, 1439487 bytes).
+ 50i,16n,67p,723b,1350s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on acs-dissertation.pdf (80 pages, 1481847 bytes).
 PDF statistics:
- 554 PDF objects out of 1000 (max. 8388607)
- 366 compressed objects within 4 object streams
+ 634 PDF objects out of 1000 (max. 8388607)
+ 421 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

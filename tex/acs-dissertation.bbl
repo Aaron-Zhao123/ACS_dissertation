@@ -1,8 +1,14 @@
 \begin{thebibliography}{10}
 
+\bibitem{deng2009imagenet}
+Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li~Fei-Fei.
+\newblock {Imagenet}: A large-scale hierarchical image database.
+\newblock In {\em Computer Vision and Pattern Recognition, 2009. CVPR 2009.
+  IEEE Conference on}, pages 248--255. IEEE, 2009.
+
 \bibitem{Krizhevsky}
 Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E. Hinton.
-\newblock Imagenet classification with deep convolutional neural networks.
+\newblock {ImageNet} classification with deep convolutional neural networks.
 \newblock In F.~Pereira, C.~J.~C. Burges, L.~Bottou, and K.~Q. Weinberger,
   editors, {\em Advances in Neural Information Processing Systems 25}, pages
   1097--1105. Curran Associates, Inc., 2012.
@@ -17,6 +23,12 @@ Song Han, Huizi Mao, and William~J. Dally.
 \newblock Deep compression: Compressing deep neural network with pruning,
   trained quantization and huffman coding.
 \newblock {\em CoRR}, abs/1510.00149, 2015.
+
+\bibitem{Gysel}
+Philipp Gysel.
+\newblock Ristretto: Hardware-oriented approximation of convolutional neural
+  networks.
+\newblock {\em CoRR}, abs/1605.06402, 2016.
 
 \bibitem{Lecun1998gradient}
 Yann LeCun, L{\'e}on Bottou, Yoshua Bengio, and Patrick Haffner.
@@ -37,6 +49,28 @@ Adam Coates, Brody Huval, Tao Wang, David~J. Wu, Bryan Catanzaro, and Andrew~Y.
 \newblock In {\em Proceedings of the 30th International Conference on Machine
   Learning, {ICML} 2013, Atlanta, GA, USA, 16-21 June 2013}, pages 1337--1345,
   2013.
+
+\bibitem{DBLP:journals/corr/SimonyanZ14a}
+Karen Simonyan and Andrew Zisserman.
+\newblock Very deep convolutional networks for large-scale image recognition.
+\newblock {\em CoRR}, abs/1409.1556, 2014.
+
+\bibitem{DBLP:journals/corr/IoffeS15}
+Sergey Ioffe and Christian Szegedy.
+\newblock Batch normalization: Accelerating deep network training by reducing
+  internal covariate shift.
+\newblock {\em CoRR}, abs/1502.03167, 2015.
+
+\bibitem{DBLP:journals/corr/SzegedyVISW15}
+Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and
+  Zbigniew Wojna.
+\newblock Rethinking the inception architecture for computer vision.
+\newblock {\em CoRR}, abs/1512.00567, 2015.
+
+\bibitem{DBLP:journals/corr/HeZRS15}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition.
+\newblock {\em CoRR}, abs/1512.03385, 2015.
 
 \bibitem{Mnih}
 Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei~A Rusu, Joel Veness,
@@ -108,6 +142,11 @@ Yu-Hsin Chen, Tushar Krishna, Joel~S Emer, and Vivienne Sze.
   convolutional neural networks.
 \newblock {\em IEEE Journal of Solid-State Circuits}, 52(1):127--138, 2017.
 
+\bibitem{Goodfellow-et-al-2016}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock {\em Deep Learning}.
+\newblock MIT Press, 2016.
+
 \bibitem{Mladenic}
 Dunja Mladeni{\'c}, Janez Brank, Marko Grobelnik, and Natasa Milic-Frayling.
 \newblock Feature selection using linear classifier weights: interaction with
@@ -115,6 +154,11 @@ Dunja Mladeni{\'c}, Janez Brank, Marko Grobelnik, and Natasa Milic-Frayling.
 \newblock In {\em Proceedings of the 27th annual international ACM SIGIR
   conference on Research and development in information retrieval}, pages
   234--241. ACM, 2004.
+
+\bibitem{hecht1988theory}
+Robert Hecht-Nielsen et~al.
+\newblock Theory of the backpropagation neural network.
+\newblock {\em Neural Networks}, 1(Supplement-1):445--448, 1988.
 
 \bibitem{Hassibi}
 Babak Hassibi, David~G Stork, et~al.
@@ -126,6 +170,28 @@ Babak Hassibi, David~G Stork, et~al.
 Suraj Srinivas and R~Venkatesh Babu.
 \newblock Data-free parameter pruning for deep neural networks.
 \newblock {\em arXiv preprint arXiv:1507.06149}, 2015.
+
+\bibitem{mao2017exploring}
+Huizi Mao, Song Han, Jeff Pool, Wenshuo Li, Xingyu Liu, Yu~Wang, and William~J
+  Dally.
+\newblock Exploring the regularity of sparse structure in convolutional neural
+  networks.
+\newblock {\em arXiv preprint arXiv:1705.08922}, 2017.
+
+\bibitem{DBLP:journals/corr/LiKDSG16}
+Hao Li, Asim Kadav, Igor Durdanovic, Hanan Samet, and Hans~Peter Graf.
+\newblock Pruning filters for efficient convnets.
+\newblock {\em CoRR}, abs/1608.08710, 2016.
+
+\bibitem{DBLP:journals/corr/WenWWCL16}
+Wei Wen, Chunpeng Wu, Yandan Wang, Yiran Chen, and Hai Li.
+\newblock Learning structured sparsity in deep neural networks.
+\newblock {\em CoRR}, abs/1608.03665, 2016.
+
+\bibitem{DBLP:journals/corr/LebedevL15}
+Vadim Lebedev and Victor~S. Lempitsky.
+\newblock Fast convnets using group-wise brain damage.
+\newblock {\em CoRR}, abs/1506.02515, 2015.
 
 \bibitem{chen2015compressing}
 Wenlin Chen, James Wilson, Stephen Tyree, Kilian Weinberger, and Yixin Chen.
@@ -153,6 +219,11 @@ Matthieu Courbariaux, Itay Hubara, Daniel Soudry, Ran El-Yaniv, and Yoshua
   and activations constrained to+ 1 or-1.
 \newblock {\em arXiv preprint arXiv:1602.02830}, 2016.
 
+\bibitem{li2016ternary}
+Fengfu Li, Bo~Zhang, and Bin Liu.
+\newblock Ternary weight networks.
+\newblock {\em arXiv preprint arXiv:1605.04711}, 2016.
+
 \bibitem{tensorflow}
 Mart{\'{\i}}n Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen,
   Craig Citro, Gregory~S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin,
@@ -169,15 +240,20 @@ Mart{\'{\i}}n Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen,
 
 \bibitem{lecun1998mnist}
 Yann LeCun, Corinna Cortes, and Christopher~JC Burges.
-\newblock The mnist database of handwritten digits, 1998.
+\newblock The {MNIST} database of handwritten digits, 1998.
 
 \bibitem{krizhevsky2014cifar}
 Alex Krizhevsky, Vinod Nair, and Geoffrey Hinton.
-\newblock The cifar-10 dataset, 2014.
+\newblock The {CIFAR-10} dataset, 2014.
+
+\bibitem{grother1995nist}
+Patrick~J Grother.
+\newblock {NIST} special database 19 handprinted forms and characters database.
+\newblock {\em National Institute of Standards and Technology}, 1995.
 
 \bibitem{lecun2015lenet}
 Yann LeCun et~al.
-\newblock Lenet-5, convolutional neural networks.
+\newblock {LeNet-5}, convolutional neural networks.
 \newblock {\em URL: http://yann. lecun. com/exdb/lenet}, 2015.
 
 \bibitem{torralba200880}
@@ -197,6 +273,11 @@ Yangqing Jia, Evan Shelhamer, Jeff Donahue, Sergey Karayev, Jonathan Long, Ross
   Girshick, Sergio Guadarrama, and Trevor Darrell.
 \newblock Caffe: Convolutional architecture for fast feature embedding.
 \newblock {\em arXiv preprint arXiv:1408.5093}, 2014.
+
+\bibitem{Han}
+Song Han, Jeff Pool, John Tran, and William~J. Dally.
+\newblock Learning both weights and connections for efficient neural networks.
+\newblock {\em CoRR}, abs/1506.02626, 2015.
 
 \bibitem{Thimm}
 Georg Thimm and Emile Fiesler.
@@ -247,12 +328,6 @@ Matthieu Courbariaux, Yoshua Bengio, and Jean-Pierre David.
 \newblock Training deep neural networks with low precision multiplications.
 \newblock {\em arXiv preprint arXiv:1412.7024}, 2014.
 
-\bibitem{Gysel}
-Philipp Gysel.
-\newblock Ristretto: Hardware-oriented approximation of convolutional neural
-  networks.
-\newblock {\em CoRR}, abs/1605.06402, 2016.
-
 \bibitem{Li2016}
 Hao Li, Asim Kadav, Igor Durdanovic, Hanan Samet, and Hans~Peter Graf.
 \newblock Pruning filters for efficient convnets.
@@ -275,5 +350,12 @@ Pavlo Molchanov, Stephen Tyree, Tero Karras, Timo Aila, and Jan Kautz.
 \newblock Pruning convolutional neural networks for resource efficient transfer
   learning.
 \newblock {\em CoRR}, abs/1611.06440, 2016.
+
+\bibitem{szegedy2015going}
+Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
+  Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich.
+\newblock Going deeper with convolutions.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 1--9, 2015.
 
 \end{thebibliography}

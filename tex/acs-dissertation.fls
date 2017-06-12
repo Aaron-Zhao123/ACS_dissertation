@@ -243,6 +243,9 @@ OUTPUT acs-dissertation.lof
 INPUT acs-dissertation.lot
 INPUT acs-dissertation.lot
 OUTPUT acs-dissertation.lot
+INPUT fig_network_size.pdf
+INPUT ./fig_network_size.pdf
+INPUT ./fig_network_size.pdf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT fig_alexnet.png
 INPUT ./fig_alexnet.png
@@ -250,6 +253,8 @@ INPUT ./fig_alexnet.png
 INPUT fig_neuron.png
 INPUT ./fig_neuron.png
 INPUT ./fig_neuron.png
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
 INPUT fig_mnist.png
 INPUT ./fig_mnist.png
 INPUT ./fig_mnist.png
@@ -263,6 +268,9 @@ INPUT ./distr_weights.pdf
 INPUT fig_dns.png
 INPUT ./fig_dns.png
 INPUT ./fig_dns.png
+INPUT fig_gp_mech.pdf
+INPUT ./fig_gp_mech.pdf
+INPUT ./fig_gp_mech.pdf
 INPUT gradient_profile_noretrain.pdf
 INPUT ./gradient_profile_noretrain.pdf
 INPUT ./gradient_profile_noretrain.pdf
@@ -273,6 +281,10 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 INPUT l1l2norm.png
 INPUT ./l1l2norm.png
 INPUT ./l1l2norm.png
@@ -280,14 +292,15 @@ INPUT fig_weights_share.png
 INPUT ./fig_weights_share.png
 INPUT ./fig_weights_share.png
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 INPUT fig_unpruned.png
 INPUT ./fig_unpruned.png
 INPUT ./fig_unpruned.png
 INPUT fig_pruned.png
 INPUT ./fig_pruned.png
 INPUT ./fig_pruned.png
+INPUT fig_weightsshare.png
+INPUT ./fig_weightsshare.png
+INPUT ./fig_weightsshare.png
 INPUT fig_dc.pdf
 INPUT ./fig_dc.pdf
 INPUT ./fig_dc.pdf
@@ -298,6 +311,7 @@ INPUT acs-dissertation.bbl
 INPUT acs-dissertation.bbl
 INPUT acs-dissertation.aux
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
